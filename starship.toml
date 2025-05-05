@@ -8,6 +8,7 @@ $git_commit\
 $git_state\
 $git_metrics\
 $git_status\
+$nix_shell\
 $python\
 $cmd_duration\
 $fill\
@@ -16,6 +17,11 @@ $time\
 $line_break\
 $character
 """
+[nix_shell]
+disabled = false
+format = '[$state]($style) '
+impure_msg = '[❄️](bold red)'
+pure_msg = '[❄️](bold blue)'
 
 [os]
 disabled = false
