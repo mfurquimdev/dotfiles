@@ -4,4 +4,4 @@
 --ignore=flake.nix
 --ignore=.pre-commit-config.yaml
 --ignore=.git
-
+--ignore=result
